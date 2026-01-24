@@ -6,6 +6,7 @@ const middleware1 = (req, res, next) => {
   next();
 };
 
+
 // Middleware #2
 const middleware2 = (req, res, next) => {
   console.log("Middleware #2");

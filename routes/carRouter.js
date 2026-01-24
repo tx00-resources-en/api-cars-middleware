@@ -20,7 +20,6 @@ router.use(middleware3);
 // GET /cars
 router.get('/', getAllCars);
 
-
 router.use(middleware4);
 
 // POST /cars
